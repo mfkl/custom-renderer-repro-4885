@@ -1,6 +1,6 @@
-﻿using LibVLCSharp.Forms.Shared;
-using Foundation;
+﻿using Foundation;
 using UIKit;
+using CustomRenderer;
 
 namespace App21.iOS
 {

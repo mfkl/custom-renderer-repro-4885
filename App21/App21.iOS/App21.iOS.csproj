@@ -155,6 +155,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
+    <ProjectReference Include="..\..\CustomRenderer\CustomRenderer.csproj">
+      <Project>{68826C93-06EA-4392-9449-94CD03EAE54F}</Project>
+      <Name>CustomRenderer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\App21\App21.csproj">
       <Project>{75C997E7-6896-4C9B-824B-76EAB22D1F80}</Project>
       <Name>App21</Name>
