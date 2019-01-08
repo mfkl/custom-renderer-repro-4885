@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
+﻿using LibVLCSharp.Forms.Shared;
 using Foundation;
 using UIKit;
 
@@ -22,6 +19,7 @@ namespace App21.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            LibVLCSharpFormsRenderer.Init();
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 

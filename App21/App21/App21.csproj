@@ -10,6 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    <PackageReference Include="LibVLCSharp" Version="0.1.6" />
+    <PackageReference Include="LibVLCSharp.Forms" Version="0.1.4" />
+    <PackageReference Include="Xamarin.Forms" Version="9.9.4" />
   </ItemGroup>
 </Project>
