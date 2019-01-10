@@ -4,9 +4,13 @@
     <TargetFrameworks>netstandard2.0;Xamarin.iOS10</TargetFrameworks>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="LibVLCSharp" Version="0.1.6" />
-    <PackageReference Include="Xamarin.Forms" Version="9.9.4" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1009999" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Platforms\**\*.cs" />

@@ -1,6 +1,5 @@
 ﻿using Foundation;
 using UIKit;
-using CustomRenderer;
 
 namespace App21.iOS
 {
@@ -19,7 +18,6 @@ namespace App21.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            LibVLCSharpFormsRenderer.Init();
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
